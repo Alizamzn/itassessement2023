@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Day of the Week</title>
+</head>
+<body>
+    <script>
+        // Prompt the user to enter a number
+        var dayNumber = prompt("Enter a number between 1 and 7:");
+
+        // Convert the input to an integer (as prompt returns a string)
+        dayNumber = parseInt(dayNumber);
+
+        // Use switch case to determine the day based on the input number
+        switch (dayNumber) {
+            case 1:
+                document.write("Sunday");
+                break;
+            case 2:
+                document.write("Monday");
+                break;
+            case 3:
+                document.write("Tuesday");
+                break;
+            case 4:
+                document.write("Wednesday");
+                break;
+            case 5:
+                document.write("Thursday");
+                break;
+            case 6:
+                document.write("Friday");
+                break;
+            case 7:
+                document.write("Saturday");
+                break;
+            default:
+                document.write("Invalid input"); // If the input number is not between 1 and 7
+                break;
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
